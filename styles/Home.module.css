@@ -1,0 +1,173 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 55px;
+  gap: 18px;
+  background-image: url('/Images/Home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.WhyContainer{
+  display: flex;
+  /* gap: 24px */
+  align-items: flex-start;
+  justify-content: center;
+}
+.Whyleft{
+  width: 45%;
+}
+.Whyright{
+  width: 35%;
+  display: flex;
+  /* padding: 15px 26px; */
+  flex-direction: column;
+  justify-content: center;}
+
+.primaryButton {
+  background: #e32213;
+  border-radius: 3px;
+  width: 175px;
+  height: 46px;
+  border: none;
+  color: white;
+}
+.smallpara{
+  font-size: 15px;
+}
+.secHeading {
+  font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    
+    line-height: 36px;
+}
+.primaryHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.FeaturesHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 30px; */
+}
+.servicesSpan{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.servicesButton{
+  margin-top: 12px;
+  padding: 9px 30px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 600;
+}
+.featureBoxContainer{
+  background: #e32213;
+    margin-bottom: 20px;
+    /* padding: 0 12px; */
+    padding: 4rem 0;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    height: 400px;
+}
+.FeaturesLink {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #C32128;
+  cursor: pointer;
+}
+.FeaturesLink:hover{
+  color: black;
+}
+@media(max-width:1390px){
+  .WhyContainer{
+    gap: 50px;
+  }
+}
+@media(max-width:1399px){
+  .servicesSpan{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media(min-width:991px){
+  .whyImage{
+    width: 500px;
+  }
+}
+
+@media(max-width:991px){
+  .WhyContainer{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Whyright{
+    width: 90%;
+  }
+  .Whyleft{
+    width: 90%;
+  }.boxesContainer{
+    max-width: 870px;
+  }.servicesSpan{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+}
+
+@media(max-width:800px){
+  .FeatureContainer{
+    flex-direction: column;
+  }
+  
+}
+
+@media(max-width:767px){
+  .box{
+    padding: 0 19%;
+  }
+}
+
+@media(max-width:552px){
+  .primaryHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .whyChoose{
+    flex-direction: column;
+    gap: 23px;
+  }
+  .box{
+    padding: 0 12%;
+  }
+  
+}
+
+@media(max-width:400px){
+  .homeContainer {
+    padding: 55px 12px;
+  }
+  .primaryHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 45px;
+  }
+  .box{
+    padding: 0 5%;
+  }
+}

@@ -1,0 +1,65 @@
+.logosContainer{
+    /* display: flex; */
+    background: white;
+    /* justify-content: space-between; */
+    padding: 12px 40px;
+    padding-bottom: 0px;
+    /* align-items: center; */
+}
+
+.footer{
+    color: white;
+    /* padding-top: 12px; */
+    padding-bottom: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #495057;
+    margin: 10px 0;
+    margin: 1rem 0rem;
+    padding: 0;
+    padding: 0rem;
+}
+
+.heading{
+    font-style: normal;
+    margin: 0;
+    margin: 14.14px 0 5px;
+    margin: 1.414rem 0rem 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding-bottom: 0.6rem;
+}
+.innerRow div{
+    width: 30%;
+}
+@media(max-width:767px){
+    .doubleImage{
+        flex-direction: column;
+        gap:24px
+    }
+}
+
+@media(max-width:575px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+    }
+    .innerRow{
+        flex-direction: column;
+        gap: 43px;
+    }
+    .innerRow div{
+        width: 100%;
+    }
+}

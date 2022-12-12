@@ -1,0 +1,50 @@
+.pHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    color: black;
+}
+
+.secHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 45px auto; */
+    gap: 45px;
+}
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 75%;
+}
+
+@media(max-width:992px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:700px) {
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}

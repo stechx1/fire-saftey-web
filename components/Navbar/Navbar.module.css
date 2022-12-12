@@ -1,0 +1,29 @@
+.mainContainer {
+  background-color: #485056;
+}
+.mainContainer li {
+  margin: 0 1.5rem;
+}
+/* .logoImage {
+  height: 105px;
+  position: relative;
+  top: -11px;
+} */
+.navContainer {
+  overflow-y: visible;
+}
+/* .navMain {
+  height: 11vh;
+} */
+
+@media (max-width: 1200px) {
+  .mainContainer li {
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 994px) {
+  .logoImage {
+    height: 96px;
+  }
+}

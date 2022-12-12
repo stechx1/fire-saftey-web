@@ -1,0 +1,62 @@
+.pHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 63px;
+}
+.secHeading{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+}
+.mainRight{
+    width: 50%;
+}
+.left{
+    width:50%
+}
+.right{
+    width:50%
+}
+.FeaturesHeading{
+    font-size: small;
+}
+.addressBox{
+    width: 80%;
+}
+.emailBox{
+    padding-bottom: 51px;
+}
+
+@media(max-width:1230px){
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        width:100%
+    }
+    .right{
+        width:100%
+    }
+    .mainContainer{
+        flex-direction: column;
+    }.mainRight{
+        width: 100%;
+    }.addressBox{
+        width:100%
+    }.callBox{
+        width: 100%;
+    }
+    .emailBox{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:768px){
+    .imgContainer{
+        flex-direction: column;
+    }
+}

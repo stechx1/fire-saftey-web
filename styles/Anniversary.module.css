@@ -1,0 +1,12 @@
+.left{
+    padding: 2% 0;
+}
+
+@media(max-width:991px){
+    .mainContainer{
+        flex-direction: column;
+    }
+    .left{
+
+    }
+}

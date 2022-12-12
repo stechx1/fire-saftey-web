@@ -1,0 +1,114 @@
+.pHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    color:black
+}
+.secHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 35px;
+}
+.smallpara{
+    font-size: 14px;
+}
+.support{
+    padding-right:40%;
+}
+.pointsPara{
+    width: 70%;
+    margin-left: 0;
+}
+.left{
+    width: 90%;
+}
+.form{
+    width: 40%;
+}
+.heightedImage{
+    height: 60vh;
+}
+.siteLeft{
+    width: 50%;
+}
+.siteRight{
+    width: 50%;
+}
+
+@media(max-width:1399px){
+    .main{
+        max-width: 1305px;
+
+    }
+}
+
+@media(max-width: 1199px){
+    .main{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media (max-width:999px) {    
+    .mainContainer{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    .pHeading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color:black
+    }
+    .support{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .siteMapMain{
+        flex-direction: column;
+        gap: 2px;
+    }
+    .siteLeft{
+        width: 100%;
+    }
+    .siteRight{
+        width: 100%;
+    }
+}
+@media(max-width:530px){
+    .coursesContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heightedImage{
+        height: 30vh;
+    }
+}
+
+@media (max-width:378px) {
+    .pHeading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color:black
+    }
+}
