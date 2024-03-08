@@ -1,1 +1,30 @@
+# Node modules
 node_modules
+
+# Next.js build output
+.next/
+
+# Compiled output
+out/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# npm debug log
+npm-debug.log
+
+# Yarn lock file
+yarn.lock
+
+# Windows thumbnail cache files
+Thumbs.db
