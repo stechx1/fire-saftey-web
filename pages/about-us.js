@@ -28,8 +28,8 @@ const AboutUs = () => {
               consultants carefully. All partners will have an extensive
               knowledge of fire safety with a fire service background and are
               members of professionally recognised bodies . Our goal is to
-              simply fire safety language for your personal business needs. And
-              then carry on with We hold BAFE……
+              simplify fire safety language for your personal business needs. And
+              then carry on with 'We hold BAFE……'
             </p>
 
             <p className={styles.smallpara}>

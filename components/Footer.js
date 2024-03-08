@@ -126,7 +126,7 @@ const Footer = () => {
         }}
       >
         <span>
-          Copyright 2021 @ Red Fire Saftey |{' '}
+          Copyright 2021 @ Red Fire Safety |{' '}
           <span
             style={{ cursor: 'pointer' }}
             onClick={() => {

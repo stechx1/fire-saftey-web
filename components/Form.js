@@ -6,7 +6,7 @@ const Form = () => {
       <div className={styles.mainContainer}>
         <div className="header">
           <h3 className={styles.secHeading}>Enquire Today</h3>
-          <p>To receieve a fully comprehensive quote for your business, simply answer the questions and complete the form below and we&apos;ll be in touch.</p>
+          <p>To receive a fully comprehensive quote for your business, simply answer the questions and complete the form below and we&apos;ll be in touch.</p>
         </div>
 
         <div className="form d-flex flex-column gap-3">

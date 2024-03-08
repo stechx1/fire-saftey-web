@@ -22,7 +22,7 @@ export default function Home() {
         </h1>
         <span>
           {/* Consultancy, Fire Safety Training & Fire Risk Assessment. <br /> */}
-          Your saftey is our business
+          Your safety is our business
         </span>
         <button
           className={styles.primaryButton}

@@ -48,7 +48,7 @@ const Regulations = () => {
                 points={[
                   'The Responsible Person must comply with The Regulatory Reform (Fire Safety) Order 2005. The responsibilities of responsible person are explained in Article 4 of the Order.',
                   'The Responsible person must ensure that preventive and protective measures are in place to reduce the risk of fire in the premises and to keep people safe from fire.',
-                  'The responsible person must carry out a fire risk assessment or appoint a competent person to undertake a fire risk assessment for the premises.',
+                  'The Responsible person must carry out a fire risk assessment or appoint a competent person to undertake a fire risk assessment for the premises.',
                   'The Responsible Person must provide clear and relevant information on the risks identified by a fire risk assessment.',
                   'The Responsible Person must provide appropriate information and training to employees about fire precautions in the workplace. All staff, including part-time staff, zero contract staff, security staff, cleaning staff and contractors should be trained and instructed on how to prevent fires occurring and what to do if there is a fire.',
                   'In multiple occupancy buildings , the responsible must collaborate with other responsible persons when implementing preventative and protective measures and exchange information relevant to the risks in their premises.',
@@ -122,7 +122,7 @@ const Regulations = () => {
               secHeading='What new Regulations mean for the Responsible Persons?'
               pHeading=''
               paras={[
-                'As of 23rd of January 2023 responsible persons in multi-occupied residential buildings must take specific actions depending on the heigh of the building.',
+                'As of 23rd of January 2023, responsible persons in multi-occupied residential buildings must take specific actions depending on the height of the building.',
               ]}
               image=''
               points={[
@@ -204,7 +204,7 @@ const Regulations = () => {
                 </h1>
                 <p className={headingStyles.smallpara}>
                   To make sure that your business complies with fire safety
-                  legislation Red Fire Safety can carry out a fire risk
+                  legislation. Red Fire Safety can carry out a fire risk
                   assessment to identify the potential risks and measures you
                   can put in place to ensure that you comply with the
                   legislation.{' '}

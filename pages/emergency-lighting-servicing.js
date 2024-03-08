@@ -37,7 +37,7 @@ const EmergencyLighting = () => {
               pHeading=' '
               paras={[
                 'One of the most important systems for protecting people on your premises is emergency lighting. When there is a power outage, these lights are installed to illuminate areas that are high traffic or at risk (for example, escape routes, high-risk areas, signage and fire safety equipment).',
-                'In the event of a power cut, the emergency lighting is designed to automatically illuminate ensuring these at-risk areas are well illuminated allowing evacuation of the building, ensuring they work as required when needed most.',
+                'In the event of a power cut, the emergency lighting is designed to automatically illuminate, ensuring these at-risk areas are well illuminated allowing evacuation of the building and ensuring they work as required when needed most.',
                 'Keeping the building occupants safe is obviously a high priority, so in an emergency, we make sure that you have an emergency lighting system that will not fail by regularly maintaining your systems in compliance with BS5266. ',
               ]}
               points={[]}
@@ -51,7 +51,7 @@ const EmergencyLighting = () => {
               paras={[]}
               points={[
                 'Maintenance completed in accordance with BS5266. ',
-                '1 visit per annum arranged convenient times to suit you.',
+                '1 visit per annum, arranged at convenient times to suit you.',
                 'A dedicated 24/7/365 call-out facility, so should your system develop a fault you can call us any time, day or night. ',
                 'Fixed service pricing, no hidden fees or charges. ',
                 'Fully trained and qualified, multi-skilled engineers.  ',

@@ -351,7 +351,7 @@ const Navbar = () => {
                       }}
                       className='dropdown-item'
                     >
-                      Fire Saftey Signage
+                      Fire Safety Signage
                     </a>
                   </li>
                   <li>
@@ -419,7 +419,7 @@ const Navbar = () => {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  Fire Saftey Training
+                  Fire Safety Training
                 </a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li>

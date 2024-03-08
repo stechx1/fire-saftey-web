@@ -119,7 +119,7 @@ const BasicFireSafety = () => {
           <div className={`container d-flex ${headingStyles.coursesContainer}`}>
             <div className='d-flex flex-column w-100'>
               <h1 className={headingStyles.secHeading}>
-                We currently offer the courses:
+                We currently offer the following courses:
               </h1>
               <p className={`${headingStyles.smallpara} m-0`}>
                 <img
@@ -171,7 +171,7 @@ const BasicFireSafety = () => {
 
           <div className='container pt-2'>
             <p style={{ fontSize: '14px' }}>
-              To book your staff members onto our fire training course please
+              To book your staff members onto our fire training course, please
               email{' '}
               <span style={{ color: '#C32128', fontWeight: 'bold' }}>
                 info@redfiresafety.com

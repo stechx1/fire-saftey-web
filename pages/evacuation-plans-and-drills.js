@@ -126,7 +126,7 @@ const EvacuationPlanAndDrills = () => {
             </span>
             <span className={headingStyles.smallpara}>
             <img src='/Images/Bullet.jpeg' alt='bullet' className='img-fluid pb-1' width={35} />{' '}
-              What firefighting equipment you provide – and where it is located.{' '}
+              What firefighting equipment you provide and where it is located.{' '}
             </span>
             <span className={headingStyles.smallpara}>
             <img src='/Images/Bullet.jpeg' alt='bullet' className='img-fluid pb-1' width={35} />{' '}
@@ -136,7 +136,7 @@ const EvacuationPlanAndDrills = () => {
           <div className='container '>
             <p style={{ fontSize: '16px', fontWeight: '600' }} className='my-3'>
               If you&apos;re having trouble formulating a plan, need some advice
-              on General or Personal Emergency Evacuation Plans or need
+              on general or Personal Emergency Evacuation Plans or need
               supervision with your fire drills, Red Fire Safety will help you
               identify what it is you need in place to make your business safe.{' '}
             </p>
