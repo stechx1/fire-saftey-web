@@ -53,26 +53,26 @@ const Footer = () => {
             <div className='d-flex flex-column gap-2 px-2 '>
               <span className={styles.heading}>Downloads</span>
               <span>
-                <a target='_blank' href='#'>
-                  Certificate of Insurance
+                <a target='_blank' href='/Images/sp101.webp'>
+                  Fire Extinguisher Certification SP101
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  Liability Insurance
+                <a target='_blank' href='/Images/compliance-advice.webp'>
+                  Compliance Ad ice for PFOA
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  BAFE Certificate
+                <a target='_blank' href='/Images/bafe-compliance.webp'>
+                  BAFE compliance Certificate SP203
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  FIA Membership
+                <a target='_blank' href='/Images/brand-guidelines.webp'>
+                  BAFE Brand Guidlines
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a target='_blank' href='#'>
                   Modern Slavery Statement
                 </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                 <a target='_blank' href='#'>
                   Our Brochure
                 </a>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

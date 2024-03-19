@@ -1,5 +1,4 @@
 import React from 'react';
-import Featurebox from './Featurebox';
 import styles from '../styles/Home.module.css';
 import AnniversaryStyles from '../styles/Anniversary.module.css';
 import { useRouter } from 'next/router';
@@ -12,10 +11,10 @@ const Anniversary = () => {
         className={`container-fluid ${
           router.pathname !== '/contact' && 'mt-md-4 mt-3'
         } `}
-        style={{ background: `#242931` }}
+        style={{ background: `#000000` }}
       >
         <div
-          className={`container text-white d-flex ${AnniversaryStyles.mainContainer}`}
+          className={`container text-white d-flex align-items-center ${AnniversaryStyles.mainContainer}`}
         >
           <div className={`d-flex flex-column w-100 ${AnniversaryStyles.left}`}>
             <h3 className={`${styles.secHeading}`}>
@@ -48,7 +47,7 @@ const Anniversary = () => {
           </div>
           <div className='w-100 d-flex'>
             <img
-              src='/Images/anniversary.jpg'
+              src='/Images/anniversary-new.png'
               alt='anniversary'
               className='img-fluid'
             />

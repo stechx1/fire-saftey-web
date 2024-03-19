@@ -1,12 +1,14 @@
-.left{
-    padding: 2% 0;
+.left {
+  padding: 2% 0;
 }
 
-@media(max-width:991px){
-    .mainContainer{
-        flex-direction: column;
-    }
-    .left{
-
-    }
+@media (max-width: 991px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+  }
+  .left {
+  }
 }
