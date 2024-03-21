@@ -59,7 +59,7 @@ const Footer = () => {
               </span>
               <span>
                 <a target='_blank' href='/Images/compliance-advice.webp'>
-                  Compliance Ad ice for PFOA
+                  Compliance Advice for PFOA
                 </a>
               </span>
               <span>
@@ -69,7 +69,7 @@ const Footer = () => {
               </span>
               <span>
                 <a target='_blank' href='/Images/brand-guidelines.webp'>
-                  BAFE Brand Guidlines
+                  BAFE Brand Guidelines
                 </a>
               </span>
               {/* <span>
