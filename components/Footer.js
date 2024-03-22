@@ -72,46 +72,41 @@ const Footer = () => {
                   BAFE Brand Guidelines
                 </a>
               </span>
-              {/* <span>
-                <a target='_blank' href='#'>
-                  Modern Slavery Statement
+              <span>
+                <a target='_blank' href='/pdfs/fia-certificate-23-24.pdf'>
+                  FIA Certificate
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  NSI Fire Certificate
+                <a target='_blank' href='/pdfs/health-safety-policy-nov22.pdf'>
+                  Method Statement
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  NSI Intruder Certificate
+                <a target='_blank' href='/pdfs/health-safety-policy-nov22.pdf'>
+                  Health & Safety Policy
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  Safe PQQ Certificate
+                <a target='_blank' href='/pdfs/public-liability-insurance-21-22.pdf'>
+                  Liability Insurances
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  Safe Contractor Certificate
+                <a target='_blank' href='/pdfs/public-liability-insurance-21-22.pdf'>
+                  Advance Door Survery Certification
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  NICEIC Certificate
+                <a target='_blank' href='/pdfs/BSI-Portables-Cert.pdf'>
+                  BSI Fire Extinguisher Certificate
                 </a>
               </span>
               <span>
-                <a target='_blank' href='#'>
-                  Electrical Car Charger Certificate
+                <a target='_blank' href='/pdfs/BSI-Portables-Cert.pdf'>
+                  BAFE SP203 - Fire Detection & Alarm Systems
                 </a>
               </span>
-              <span>
-                <a target='_blank' href='#'>
-                  Our Brochure
-                </a>
-              </span> */}
             </div>
           </div>
         </div>

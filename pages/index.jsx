@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Anniversary from '../components/Anniversary';
 import Featurebox from '../components/Featurebox';
 import styles from '../styles/Home.module.css';
+import newStyles from '../styles/Banner.module.css';
 import { useRouter } from 'next/router';
 
 export default function Home() {
@@ -235,6 +236,27 @@ export default function Home() {
             We are fully accredited through industrial leading association, and
             affiliated to prestigious trade organisations.
           </p>
+        </div>
+      </div>
+      {/* className={`pt-2 container`} */}
+      <div className={`${newStyles.hide}`}>
+        <img width={"20%"} height={"40%"} src='/Images/logos/logo (9).png' alt='BAFE logo' />
+        <div className={`${newStyles.lines_wrapper}`}>
+          <div className={newStyles.line1}></div>
+          <p className={newStyles.margin}>
+            Congratulations to Red Fire Safety on achieving the prestigious BAFE
+            SP101 accreditation! This significant milestone underscores Red Fire
+            Safety's unwavering commitment to excellence and their dedication to
+            providing top-tier safety solutions. By attaining this
+            accreditation, Red Fire Safety showcases their adherence to the most
+            stringent industry standards, guaranteeing that their clients
+            receive nothing but the highest quality in fire safety services. We
+            commend Red Fire Safety for their tireless efforts and perseverance
+            in reaching this achievement, and we eagerly anticipate their
+            ongoing success in delivering unmatched safety solutions to their
+            clientele.
+          </p>
+          <div className={newStyles.line2}></div>
         </div>
       </div>
 
