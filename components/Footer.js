@@ -54,22 +54,32 @@ const Footer = () => {
               <span className={styles.heading}>Downloads</span>
               <span>
                 <a target='_blank' href='/Images/sp101.webp'>
-                  Fire Extinguisher Certification SP101
-                </a>
-              </span>
-              <span>
-                <a target='_blank' href='/Images/compliance-advice.webp'>
-                  Compliance Advice for PFOA
+                  BAFE SP101 Fire Extinguisher Certification
                 </a>
               </span>
               <span>
                 <a target='_blank' href='/Images/bafe-compliance.webp'>
-                  BAFE compliance Certificate SP203
+                  BAFE SP203 Compliance Certificate
                 </a>
               </span>
               <span>
                 <a target='_blank' href='/Images/brand-guidelines.webp'>
                   BAFE Brand Guidelines
+                </a>
+              </span>
+              <span>
+                <a target='_blank' href='/pdfs/BAFE-sp23.pdf'>
+                  BAFE SP203 - Fire Detection & Alarm Systems
+                </a>
+              </span>
+              <span>
+                <a target='_blank' href='/pdfs/BSI-Portables-Cert.pdf'>
+                  BSI Fire Extinguisher Certificate
+                </a>
+              </span>
+              <span>
+                <a target='_blank' href='/Images/compliance-advice.webp'>
+                  Compliance Advice for PFOA
                 </a>
               </span>
               <span>
@@ -95,16 +105,6 @@ const Footer = () => {
               <span>
                 <a target='_blank' href='/pdfs/public-liability-insurance-21-22.pdf'>
                   Advance Door Survery Certification
-                </a>
-              </span>
-              <span>
-                <a target='_blank' href='/pdfs/BSI-Portables-Cert.pdf'>
-                  BSI Fire Extinguisher Certificate
-                </a>
-              </span>
-              <span>
-                <a target='_blank' href='/pdfs/BAFE-sp23.pdf'>
-                  BAFE SP203 - Fire Detection & Alarm Systems
                 </a>
               </span>
             </div>
