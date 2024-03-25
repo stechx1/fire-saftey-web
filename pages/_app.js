@@ -1,6 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/globals.css'
-import Head from "next/head";
+import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/globals.css';
+import Head from 'next/head';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer';
 
@@ -8,11 +8,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-       <Navbar/> <Component {...pageProps} /> <Footer/>
+      <Navbar /> <Component {...pageProps} /> <Footer />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

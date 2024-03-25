@@ -30,17 +30,3 @@
   margin: 12px 0px;
 }
 
-/* Why the hell its not working????  */
-@media (max-width: 480px) {
-  .hide {
-    flex-direction: column;
-  }
-
-  .line1 {
-    display: none;
-  }
-
-  .line2 {
-    display: none;
-  }
-}

@@ -236,10 +236,15 @@ export default function Home() {
         </div>
       </div>
       {/* className={`pt-2 container`} */}
-      <div className={`${newStyles.hide}`}>
-        <img width={"20%"} height={"100%"} src='/Images/logos/logo (9).png' alt='BAFE logo' />
+      <div className={`md:tw-flex-row md:tw-my-[60px] md:tw-h-[200px] tw-flex tw-flex-col tw-h-[100%] tw-my-6 container`}>
+        <img className='md:tw-w-[20%] md:tw-h-[100%] tw-w-[40%]'
+          // width={'20%'}
+          // height={'100%'}
+          src='/Images/logos/logo (9).png'
+          alt='BAFE logo'
+        />
         <div className={`${newStyles.lines_wrapper}`}>
-          <div className={newStyles.line1}></div>
+          <div className={`${newStyles.line1} md:tw-block tw-hidden`}></div>
           <p className={newStyles.margin}>
             Congratulations to Red Fire Safety on achieving the prestigious BAFE
             SP101 accreditation! This significant milestone underscores Red Fire
@@ -253,7 +258,7 @@ export default function Home() {
             ongoing success in delivering unmatched safety solutions to their
             clientele.
           </p>
-          <div className={newStyles.line2}></div>
+          <div className={`${newStyles.line2} md:tw-block tw-hidden`}></div>
         </div>
       </div>
 

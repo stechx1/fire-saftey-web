@@ -78,7 +78,7 @@ const Footer = () => {
                 </a>
               </span>
               <span>
-                <a target='_blank' href='/pdfs/health-safety-policy-nov22.pdf'>
+                <a target='_blank' href='/pdfs/method-statement.docx'>
                   Method Statement
                 </a>
               </span>
@@ -103,7 +103,7 @@ const Footer = () => {
                 </a>
               </span>
               <span>
-                <a target='_blank' href='/pdfs/BSI-Portables-Cert.pdf'>
+                <a target='_blank' href='/pdfs/BAFE-sp23.pdf'>
                   BAFE SP203 - Fire Detection & Alarm Systems
                 </a>
               </span>
