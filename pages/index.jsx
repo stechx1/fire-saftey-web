@@ -1,8 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Head from 'next/head';
-import Image from 'next/image';
 import Anniversary from '../components/Anniversary';
-import Featurebox from '../components/Featurebox';
 import styles from '../styles/Home.module.css';
 import newStyles from '../styles/Banner.module.css';
 import { useRouter } from 'next/router';
@@ -240,7 +237,7 @@ export default function Home() {
       </div>
       {/* className={`pt-2 container`} */}
       <div className={`${newStyles.hide}`}>
-        <img width={"20%"} height={"40%"} src='/Images/logos/logo (9).png' alt='BAFE logo' />
+        <img width={"20%"} height={"100%"} src='/Images/logos/logo (9).png' alt='BAFE logo' />
         <div className={`${newStyles.lines_wrapper}`}>
           <div className={newStyles.line1}></div>
           <p className={newStyles.margin}>
