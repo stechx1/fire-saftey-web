@@ -27,7 +27,7 @@ const Navbar = () => {
           >
             <span>Call the team today</span>
             <span>Mon - Fri 9am - 5pm</span>
-            <span>01689 493 641</span>
+            <a href={`tel:01689-493-641`}>01689 493 641</a>
           </div>
         </div>
       </div>

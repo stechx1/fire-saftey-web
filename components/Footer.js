@@ -47,8 +47,10 @@ const Footer = () => {
             </div>
             <div className='d-flex flex-column gap-2 px-2 '>
               <span className={styles.heading}>Contact Us</span>
-              <span>Tel: 01689 493 641</span>
-              <span>Email: info@redfiresafety.com</span>
+              <a href={`tel:01689-493-641`}>Tel: 01689 493 641</a>
+              <a href={`mailto:info@redfiresafety.com`}>
+                Email: info@redfiresafety.com
+              </a>
             </div>
             <div className='d-flex flex-column gap-2 px-2 '>
               <span className={styles.heading}>Downloads</span>
@@ -98,12 +100,18 @@ const Footer = () => {
                 </a>
               </span>
               <span>
-                <a target='_blank' href='/pdfs/public-liability-insurance-21-22.pdf'>
+                <a
+                  target='_blank'
+                  href='/pdfs/public-liability-insurance-21-22.pdf'
+                >
                   Liability Insurances
                 </a>
               </span>
               <span>
-                <a target='_blank' href='/pdfs/public-liability-insurance-21-22.pdf'>
+                <a
+                  target='_blank'
+                  href='/pdfs/public-liability-insurance-21-22.pdf'
+                >
                   Advance Door Survery Certification
                 </a>
               </span>

@@ -18,19 +18,26 @@ const Contact = () => {
         >
           <div className={`d-flex flex-column ${styles.callBox}`}>
             <div className='d-flex flex-column align-items-center  gap-2 p-5'>
-              <img
-                src='/Images/Contact/Whitephone.png'
-                alt='Fire1'
-                className='img-fluid'
-                width={30}
-                height={30}
-              />
-              <h3 className={`${styles.secHeading} mt-1`}> CALL US </h3>
-              <span className={styles.FeaturesHeading}>01689 493 641</span>
+              <a href={`tel:01689-493-641`}>
+                <img
+                  src='/Images/Contact/Whitephone.png'
+                  alt='Fire1'
+                  className='img-fluid'
+                  width={30}
+                  height={30}
+                />
+              </a>
+              <a href={`tel:01689-493-641`}>
+                <h3 className={`${styles.secHeading} mt-1`}> CALL US </h3>
+              </a>
+              <span className={styles.FeaturesHeading}>
+                <a href={`tel:01689-493-641`}>01689 493 641</a>
+              </span>
             </div>
           </div>
 
-          <div
+          <a
+            href={`mailto:info@redfiresafety.com`}
             className={`d-flex flex-column align-items-center  gap-2 px-4 ${styles.emailBox}`}
           >
             <img
@@ -42,7 +49,7 @@ const Contact = () => {
             />
             <h3 className={`${styles.secHeading} mt-3`}>EMAIL</h3>
             <p className={styles.FeaturesHeading}> info@redfiresafety.com</p>
-          </div>
+          </a>
         </div>
         {/* <div className='w-100'>
           <video src="/Videos/contact.mp4" className="img-fluid" autoPlay={true} loop={true} muted={true}  ></video>
