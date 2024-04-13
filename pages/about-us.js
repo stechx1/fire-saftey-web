@@ -21,16 +21,6 @@ const AboutUs = () => {
               the design, installation, commissioning, servicing and routine
               maintenance of fire, products, accessories and systems.
             </p>
-            <p className={styles.smallpara}>
-              We are passionate about fire safety. Our goal is to share our
-              collective years of experience gained from working in the UK Fire
-              & Rescue Service. We pride ourselves in choosing associates and
-              consultants carefully. All partners will have an extensive
-              knowledge of fire safety with a fire service background and are
-              members of professionally recognised bodies . Our goal is to
-              simplify fire safety language for your personal business needs. And
-              then carry on with 'We hold BAFE……'
-            </p>
 
             <p className={styles.smallpara}>
               We hold BAFE, ISO and Door Check accreditations as well as being
