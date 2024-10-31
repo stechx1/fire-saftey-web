@@ -99,14 +99,14 @@ const Footer = () => {
                   Health & Safety Policy
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a
                   target='_blank'
                   href='/pdfs/public-liability-insurance-21-22.pdf'
                 >
                   Liability Insurances
                 </a>
-              </span>
+              </span> */}
               <span>
                 <a
                   target='_blank'
