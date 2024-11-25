@@ -64,7 +64,7 @@ const Contact = () => {
             <div className='d-flex gap-3'>
               <a
                 target='_blank'
-                href='https://www.linkedin.com/company/red-fire-safety-services-limited/?originalSubdomain=uk'
+                href='https://uk.linkedin.com/company/red-fire-safety-services-limited'
                 rel='noreferrer'
               >
                 <i
@@ -76,7 +76,7 @@ const Contact = () => {
 
               <a
                 target='_blank'
-                href='https://www.instagram.com/redfiresafetyservices/'
+                href='https://www.instagram.com/redfiresafetyltd/'
                 rel='noreferrer'
               >
                 <i
