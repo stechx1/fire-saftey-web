@@ -39,11 +39,10 @@ const Footer = () => {
             <div className='d-flex flex-column gap-2 px-2 '>
               <span className={styles.heading}>Our Address</span>
               {/* <hr className={styles.hr} /> */}
-              <span>Lockheed House,</span>
-              <span>Unit 1, 238,</span>
-              <span>Green Lane,</span>
+              <span>160 Eltham Hill</span>
+              <span>Eltham,</span>
               <span>London,</span>
-              <span>SE9 3TL</span>
+              <span>SE9 5EA</span>
             </div>
             <div className='d-flex flex-column gap-2 px-2 '>
               <span className={styles.heading}>Contact Us</span>
