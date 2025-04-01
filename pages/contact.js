@@ -99,8 +99,7 @@ const Contact = () => {
             />
             <h1 className={styles.secHeading}>ADDRESS</h1>
             <p className={styles.FeaturesHeading}>
-              Red Fire Safety Limited, <br /> Lockheed House & Unit 1, 238 Green
-              Lane, London, SE9 3TL
+              Red Fire Safety Limited, <br /> 160 Eltham Hill, Eltham SE9 5EA
             </p>
           </div>
         </div>
